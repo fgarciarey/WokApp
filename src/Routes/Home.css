@@ -1,0 +1,35 @@
+.home-page header {
+    background-image: url(../assets/images/wallpaper.jpg);
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+.home-page header h1 {
+    text-shadow: 1.5px 1.5px 3px #ffffff;
+
+}
+
+.home-page header h2 {
+    text-shadow: 1px 1px 3px #ffffff;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size:4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}

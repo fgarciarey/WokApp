@@ -1,0 +1,132 @@
+.contact-page header {
+    background-image: url(../assets/images/wok4.jpg);
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+.contact-page header h1 {
+    text-shadow: 1.5px 1.5px 3px #000000;
+
+}
+
+/* ///////// FORMULARIO INPUT /////////  */
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 !important;
+}
+
+label{
+    color: var(--color4);
+    font-size: 1rem;
+    font-weight:bold;
+    padding: 0 0 8px 6px;
+    display: block;
+}
+
+input{
+    height: 40px;
+    padding: 0 8px;
+    border-radius: 8px;
+    color: var(--color1);
+    font-size: 1rem;
+    padding: 0 8px 0 16px !important;
+    border-bottom: 4px solid var(--color3);
+}
+
+textarea{
+    resize: vertical;
+    min-height: 100px;
+    padding: 8px 8px 0 16px !important;
+    border-radius: 8px;
+    color: var(--color1);
+    font-size: 1rem;
+    border-bottom: 4px solid var(--color3);
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: var(--color2);    
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder{
+    color: var(--color3);
+}
+
+input:active,
+input:focus,
+textarea:focus,
+textarea:active{
+    color: var(--color1);
+    outline: none;
+    border-bottom: 4px solid var(--color5);
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.g-col-0{
+    margin: 0 -2% 0 -2% !important;
+}
+
+.g-col-1{
+    margin: 1% 2% !important;
+}
+
+.col-12{
+    width: 100%!important;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+.col-6{
+    width: 46% !important;
+    margin: 0px;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+.align-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: end !important;
+    align-content: end;
+}
+
+.button{
+    width: 90px !important;
+    padding: 8px 16px;
+    font-size: 1rem;
+    color: var(--color3);
+    text-align: center;
+    background-color: #2e56f6;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #2e56f6;
+    border-radius: 4px;
+}
+.button:hover{
+    background-color: #082bb4;
+    cursor: pointer;
+    border: 1px solid #082bb4;
+}
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size:4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}

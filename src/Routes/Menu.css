@@ -1,0 +1,17 @@
+.menu-page header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/fondomenu.jpg); 
+    height: 50vh;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size:4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}

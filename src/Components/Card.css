@@ -1,0 +1,12 @@
+/* styles.css (o el nombre de tu archivo de estilos) */
+
+.custom-card-style {
+    border: 2px solid #007bff; /* Cambia el color del borde según tus preferencias */
+    border-radius: 5px; /* Agrega esquinas redondeadas si lo deseas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+    transition: transform 0.3s ease-in-out; /* Agrega una transición al efecto hover */
+  }
+  
+  .custom-card-style:hover {
+    transform: scale(1); /* Ajusta el tamaño al hacer hover */
+  }
