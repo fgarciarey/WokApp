@@ -28,3 +28,6 @@ Para cualquier pregunta o consulta, no dudes en ponerte en contacto con nosotros
 ## Tecnologías Utilizadas
 - Frontend: HTML, CSS, JavaScript, [Framework Frontend utilizado, por ejemplo, React]
 
+## Revisa el proyecto
+https://proyecto-4-wokeate-felipegarciarey.netlify.app
+
