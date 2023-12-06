@@ -6,7 +6,7 @@
 
 /* Establece el fondo del Navbar como transparente */
 .navbar {
-  background-color: transparent !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
 /* Asegúrate de que el contenido del Navbar sea visible sobre el fondo transparente */
