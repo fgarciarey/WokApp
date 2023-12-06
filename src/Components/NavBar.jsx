@@ -8,7 +8,7 @@ import logowok from '../assets/images/logowok.png';
 
 export const NavBar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary fixed-top">
       <Container>
       <Navbar.Brand href="/">
           <img
