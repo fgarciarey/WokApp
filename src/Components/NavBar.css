@@ -12,7 +12,7 @@
 /* Asegúrate de que el contenido del Navbar sea visible sobre el fondo transparente */
 .navbar-brand,
 .navbar-nav .nav-link {
-  color: white; /* Puedes ajustar el color del texto según tus preferencias */
+  color: black; /* Puedes ajustar el color del texto según tus preferencias */
 }
 
 /* Cambia el color del botón del Navbar al expandir */
